@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+html {
+  font-size: 16px;
+}
+:root {
+  --surface: #ccd5ae;
+  --text-color: white;
+
+  /*Typography*/
+  --tile1: 2.5rem;
+  --tile2: 2rem;
+  --title3: 1.75rem;
+  --paragraph: 1rem;
+}
+header > section {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 0;
+  width: 50%;
+}
+
+section > a {
+  text-decoration: none;
+  color: black;
+}
+section > nav > a {
+  justify-content: space-around;
+  text-decoration: none;
+  padding: 4px;
+  color: black;
+}
+#section-fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100vh;
+  background-color: var(--surface);
+}
+
+#button {
+  background-color: black;
+  margin-left: 800px;
+  margin-top: 20px;
+  color: white;
+  padding: 0 20px;
+  border: none;
+  cursor: pointer;
+  height: 50px;
+}
+img {
+  width: 300px;
+  height: auto;
+  margin:auto;
+  display: block;
+}
+main {
+  text-align: justify;
+  width: 50%;
+  margin: 30px;
+}
+#section_b{
+  margin: 60px 10px;
+  padding: 10px;
+  width: 70%;
+  text-align: justify;
+}
+main > section > h1 {
+  padding: 6px;
+  font-size: xx-large;
+  margin-bottom: 10px;
+}
+main > section > h2 {
+  margin-top: 10px;
+  padding: 4px;
+}
+#infor {
+  margin-top: 100px;
+  padding: 20px;
+  gap: 20px;
+  text-align: justify;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  gap: 4px;
+  margin-top: 20px;
+  height: 80px;
+  width: 30%;
+  text-align: justify;
+}
+.cv {
+  text-decoration: none;
+  color: black;
+}
+
+#home {
+  text-align: justify;
+  margin-top: 100px;
+  gap: 20px;
+}
+#home > div {
+  text-align: justify;
+  margin-top: 20px;
+}
+#about {
+  margin-top: 30px;
+  
+}
+#skills {
+  margin-top: 30px;
+  
+}
+#list_habilite{
+    width: fit-content;
+    align-items: center;
+    margin-left: 30px;
+    padding: 10px;
+}
+#resume {
+  margin-top: 30px;
+  
+}
+#education {
+  margin-top: 60px;
+  margin-right: 10px;
+  padding: 10px;
+  width: 70%;
+  text-align: justify;
+}*/
+
+#cont {
+ 
+  padding: 20px;
+  text-align: justify;
+}
+footer {
+  color: black;
+  padding: 10px;
+  text-align: justify;
+  margin-top: 20px;
+  margin-bottom: 0;
+  width: 50%;
+}
